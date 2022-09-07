@@ -1,9 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React         from 'react';
+import ReactDOM      from 'react-dom/client';
+import {Marquee}       from "react-fast-marquee";
+import {useMediaQuery} from 'react-responsive';
+//import {Collapsible}   from 'react-collapsible';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+function test (){
+	return (<div>hello morld</div>)
+}
+
+// =============================================================================
+// ---------------------------------- MOBILE -----------------------------------
+// =============================================================================
+
+
+// =============================================================================
+// ---------------------------------- DESKTOP ----------------------------------
+// =============================================================================
+
+
+// =============================================================================
+// ----------------------------------- MAIN ------------------------------------
+// =============================================================================
+
 root.render(
   <React.StrictMode>
-	  hello world
+	  {test()}
   </React.StrictMode>
 );
