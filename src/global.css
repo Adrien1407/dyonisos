@@ -22,8 +22,8 @@ body {font-family:     Century}
 .textBeige     { color:            #f9f8f4 }
 
 
-.textWhite{color:white};
-.bgWhite {background-color:white}
+.textWhite{color:#ffffff};
+.bgwhite {background-color:#ffffff}
 .textBlack{color:black};
 
 
@@ -322,7 +322,6 @@ hr:after {
 	letter-spacing: 4px; /* Use letter-spacing to increase space between dots*/
 }
 
-.bgWhite1 { background: #ffffff; }
 
 
 .hide
@@ -354,8 +353,6 @@ hr:after {
 .index3{z-index: 3};
 
 
-.bgWhite {background-color: #f2f2f2;}
-.bgBlack {background-color: #2d2d2d;}
 /*html{   width: 100%; height: 100%   ;}*/
 /*body{   width: 100%; height: 100%   ;}*/
 

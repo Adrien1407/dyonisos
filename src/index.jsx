@@ -29,6 +29,7 @@ import "./global.css"
 
 import placeholder from './img/placeholder.jpg'
 import placeholder_logo from './img/placeholder_logo.png'
+import placeholder_vin from './img/placeholder_vin.jpg'
 
 
 
@@ -56,11 +57,11 @@ const Mobile = () => {
 			{/* ---------------------------- PAGE 1 ---------------------------- */}
 			{/* ================================================================ */}
 
-				<div className="flex w100 h10 bgBlack fixed absolute " style={{backgroundColor: "rgba(0, 0, 0, 0.48)", zIndex: 1, top: 0, flexDirection:"row-reverse"}}>
-					<div className="textPink h100 center" style={{paddingRight: "3%"}}>
-						BURGER MENU
-					</div>
+			<div className="flex w100 h10 bgBlack fixed absolute " style={{backgroundColor: "rgba(0, 0, 0, 0.48)", zIndex: 1, top: 0, flexDirection:"row-reverse"}}>
+				<div className="textPink h100 center" style={{paddingRight: "3%"}}>
+					BURGER MENU
 				</div>
+			</div>
 
 
 
@@ -110,11 +111,21 @@ const Mobile = () => {
 					</div>
 
 
-
-
-
 				</div>
 			</div>
+
+
+
+			{/* ============================================================ */}
+			{/* -------------------------- PAGE3 --------------------------- */}
+			{/* ============================================================ */}
+			<div className="flex" style={{backgroundColor:"white"}}>
+				<img className='w90' src={placeholder_vin} alt="Placeholder" style={{objectFit:"cover", minHeight:"33vh"}}/>
+			</div>
+
+
+
+
 		</div>
 	);
 };
